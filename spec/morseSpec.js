@@ -10,6 +10,6 @@ describe("morse code", function(){
     expect(morse.encode("Roger")).toEqual(".-. --- --. . .-.")
   })
   it("encodes a whole sentence", function(){
-    expect(morse.encode("The frequency is in use")).toEqual("- .... .    ..-. .-. . --.- ..- . -. -.-. -.--    .. ...    .. -.    ..- ... .")
+    expect(morse.encode("The frequency is in use")).toEqual("- .... .   ..-. .-. . --.- ..- . -. -.-. -.--   .. ...   .. -.   ..- ... .")
   })
 })
