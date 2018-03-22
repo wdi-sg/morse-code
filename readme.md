@@ -34,18 +34,11 @@ Given the following alphabet:
 }
 ```
 
-Build a morse-code encoder to make the tests pass in `spec/`.
-
-To run the tests:
-
-```
-$ npm install -g jasmine-node
-$ jasmine-node spec/
-```
+Build a command line morse-code encoder.
 
 ## Bonus
 
-Decode the following messages:
+Decode the following messages: (hint: command line arguments can take strings with quotes)
 
 ```
 ... .- -- ..- . .-..    -- --- .-. ... .    .. -. ...- . -. - . -..    -- --- .-. ... .    -.-. --- -.. .

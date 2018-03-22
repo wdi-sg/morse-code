@@ -26,8 +26,8 @@ var alphabet = {
   x: '-..-',
   y: '-.--',
   z: '--..'
-}
-module.exports =  {
-  encode: function(){
-  }
+};
+
+function encode(){
+
 }
