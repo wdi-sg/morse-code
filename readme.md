@@ -44,7 +44,7 @@ Try encoding the following strings:
 Write a function that accepts a user input and be able to output the encoded value. 
 
 ## Bonus
-Decode the following messages: (hint: command line arguments can take strings with quotes)
+Decode the following messages:
 ```
 ... .- -- ..- . .-..    -- --- .-. ... .    .. -. ...- . -. - . -..    -- --- .-. ... .    -.-. --- -.. .
 ```
