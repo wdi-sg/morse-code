@@ -34,20 +34,23 @@ Given the following alphabet:
 }
 ```
 
-Build a command line morse-code encoder.
+Try encoding the following words:
+
+```var firstWord = "hello world"```
+
+```var secondWord = "we love javascript"```
+
+## Further
+Write a function that accepts a user input and be able to output the encoded value. 
 
 ## Bonus
-
 Decode the following messages: (hint: command line arguments can take strings with quotes)
-
 ```
 ... .- -- ..- . .-..    -- --- .-. ... .    .. -. ...- . -. - . -..    -- --- .-. ... .    -.-. --- -.. .
 ```
-
 ```
 -.-- --- ..- .-.    .. -. ... - .-. ..- -.-. - --- .-. ...    .-.. --- ...- .    -.-- --- ..-
 ```
-
 ```
 - .... .. ...    .. ...    - .... .    .- -. ... .-- . .-.    - ---    - .... .    ..- .-.. - .. -- .- - .    --.- ..- . ... - .. --- -.    --- ..-.    .-.. .. ..-. .    - .... .    ..- -. .. ...- . .-. ... .    .- -. -..    . ...- . .-. -.-- - .... .. -. --.
 ....
