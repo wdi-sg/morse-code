@@ -34,11 +34,11 @@ Given the following alphabet:
 }
 ```
 
-Try encoding the following words:
+Try encoding the following strings:
 
-```var firstWord = "hello world"```
+```var firstWord = "hello world";```
 
-```var secondWord = "we love javascript"```
+```var secondWord = "we love javascript";```
 
 ## Further
 Write a function that accepts a user input and be able to output the encoded value. 
