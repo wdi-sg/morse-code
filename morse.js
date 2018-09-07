@@ -27,7 +27,3 @@ var alphabet = {
   y: '-.--',
   z: '--..'
 };
-
-function encode(){
-
-}
