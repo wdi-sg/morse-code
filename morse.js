@@ -1,33 +1,33 @@
 // //alphabet array
-// var alphabet = {
-//   a: '.-',
-//   b: '-...',
-//   c: '-.-.',
-//   d: '-..',
-//   e: '.',
-//   f: '..-.',
-//   g: '--.',
-//   h: '....',
-//   i: '..',
-//   j: '.---',
-//   k: '-.-',
-//   l: '.-..',
-//   m: '--',
-//   n: '-.',
-//   o: '---',
-//   p: '.--.',
-//   q: '--.-',
-//   r: '.-.',
-//   s: '...',
-//   t: '-',
-//   u: '..-',
-//   v: '...-',
-//   w: '.--',
-//   v: '...-',
-//   x: '-..-',
-//   y: '-.--',
-//   z: '--..'
-// };
+var alphabet = {
+  a: '.-',
+  b: '-...',
+  c: '-.-.',
+  d: '-..',
+  e: '.',
+  f: '..-.',
+  g: '--.',
+  h: '....',
+  i: '..',
+  j: '.---',
+  k: '-.-',
+  l: '.-..',
+  m: '--',
+  n: '-.',
+  o: '---',
+  p: '.--.',
+  q: '--.-',
+  r: '.-.',
+  s: '...',
+  t: '-',
+  u: '..-',
+  v: '...-',
+  w: '.--',
+  v: '...-',
+  x: '-..-',
+  y: '-.--',
+  z: '--..'
+};
 
 // console.log(Object.keys(alphabet))
 
@@ -63,12 +63,13 @@
 //////////////FURTHER/////////////////
 //input by User
 var inputUser = "... .- -- ..- . .-..    -- --- .-. ... .    .. -. ...- . -. - . -..    -- --- .-. ... .    -.-. --- -.. ."
-
+var inputUser1 = "-.-- --- ..- .-.    .. -. ... - .-. ..- -.-. - --- .-. ...    .-.. --- ...- .    -.-- --- ..-"
+var inputUser2 = "- .... .. ...    .. ...    - .... .    .- -. ... .-- . .-.    - ---    - .... .    ..- .-.. - .. -- .- - .    --.- ..- . ... - .. --- -.    --- ..-.    .-.. .. ..-. .    - .... .    ..- -. .. ...- . .-. ... .    .- -. -..    . ...- . .-. -.-- - .... .. -. --....."
 //splitting morse into array
 var inputArray = inputUser.split(" ")
+var inputArray1 = inputUser1.split(" ")
+var inputArray2 = inputUser2.split(" ")
 
-//turning keys of alphabet
-var alphabetArray = Object.keys(alphabet)
 
 //Function from Morse to word
 var converter = function(insertArray){
@@ -76,14 +77,11 @@ var converter = function(insertArray){
     var convertedArray = []
 
     for(var i = 0 ; i<insertArray.length ; i++){
-        for(var j = 0 ; j<alphabetArray.length; j++){
-            if(alphabetArray[j] === insertArray[i]){
-                convertedArray.push(alphabet[alphabetArray[j]])
+        for(var j = 0 ; j<Object.values(alphabet).length; j++){
+            if(Object.values(alphabet)[j] === insertArray[i]){
+                convertedArray.push(Object.keys(alphabet)[j])
             }
         }
     }
     return convertedArray
 }
-
-
-
