@@ -41,7 +41,7 @@ Try encoding the following strings:
 ```var secondWord = "we love javascript";```
 
 ## Further
-Write a function that accepts a user input and be able to output the encoded value. 
+Accept user input and be able to output the encoded value. (using prompt)
 
 ## Bonus
 Decode the following messages:
@@ -54,4 +54,16 @@ Decode the following messages:
 ```
 - .... .. ...    .. ...    - .... .    .- -. ... .-- . .-.    - ---    - .... .    ..- .-.. - .. -- .- - .    --.- ..- . ... - .. --- -.    --- ..-.    .-.. .. ..-. .    - .... .    ..- -. .. ...- . .-. ... .    .- -. -..    . ...- . .-. -.-- - .... .. -. --.
 ....
+```
+
+##### Hint: (don't look unless you need to!)
+Each letter of the alphabet is given as a key in the array.
+You need to translate every letter in the input string into a different string.
+This repetition of the translation action implys a loop.
+The data that this loops runs on, where you translate each letter into a set of dots an dashes implys a loop that runs over an array of characters (one element for each letter of the word).
+You can transform a string into an array of individual characters easily in javascript:
+
+```
+var word = "hello";
+var wordArray = word.split('');
 ```
