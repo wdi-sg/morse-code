@@ -55,6 +55,8 @@ Decode the following messages:
 - .... .. ...    .. ...    - .... .    .- -. ... .-- . .-.    - ---    - .... .    ..- .-.. - .. -- .- - .    --.- ..- . ... - .. --- -.    --- ..-.    .-.. .. ..-. .    - .... .    ..- -. .. ...- . .-. ... .    .- -. -..    . ...- . .-. -.-- - .... .. -. --.
 ....
 ```
+## Bonus
+Ask the user if they want to encode or decode. Add the ability to take in morse code and spit out the decoded message.
 
 ##### Hints: (don't look unless you need to!)
 Each letter of the alphabet is given as a key in the array.
